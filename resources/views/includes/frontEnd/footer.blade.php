@@ -1,21 +1,4 @@
 
-{{--Quote section Start--}}
-<section>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-9">
-                <div class="d-flex flex-column flex-sm-row form-group">
-                    <input class="form-control form-control-lg mr-sm-2 mb-2 mb-sm-0 h-100"  placeholder="If you have any query please" type="text" readonly>
-                    <a class="btn btn-lg btn-primary btn-loading" type="submit" data-loading-text="Sending">
-                        <span style="color: white">Ask for a quote</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{{--Quote section End--}}
-
 {{--Footer section Start--}}
 <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
     <div class="container">
