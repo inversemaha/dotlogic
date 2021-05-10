@@ -210,5 +210,38 @@
                 </div>
             </div>
         </div>
+    </section><section class="p-0 bg-light row no-gutters">
+        <div class="col-lg-5 col-xl-6 bg-primary-3">
+            <div class="min-vh-30 h-100 w-100" data-map-zoom="14">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.23967585000318!2d90.41641863551233!3d23.75326928805225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b87cec02b5e1%3A0x54bec4d0f2c35bb6!2sMalibagh%20Chowdhury%20Para%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1579211229376!5m2!1sen!2sbd" frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen="true"></iframe>
+            </div>
+            <div class="divider divider-side bg-light d-none d-lg-block"></div>
+        </div>
+        <div class="col-lg-7 col-xl-6">
+            <section>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col col-md-10 col-xl-9">
+                            <h3 class="h1">You know where to find us, let's meet for coffee!</h3>
+                            <div class="row">
+                                <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="h2 text-primary mb-2" data-countup="" data-start="" data-end="13295" data-duration="" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="" data-easing="">13295</div>
+                                    <h6 class="mb-0">Visitors</h6>
+                                </div>
+                                <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="h2 text-primary mb-2" data-countup="" data-start="20" data-end="856" data-duration="1" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="" data-easing="false">856</div>
+                                    <h6 class="mb-0">Downloads</h6>
+                                </div>
+                                <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="h2 text-primary mb-2" data-countup="" data-start="" data-end="45" data-duration="" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="" data-easing="">45</div>
+                                    <h6 class="mb-0">Clients</h6>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </section>
 @endsection
