@@ -52,7 +52,8 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <form name="ContactForm" onsubmit="return ValidateContactForm();" action="?" method="post">
+                    <form action="/contact/save" method="post" enctype="multipart/form-data">
+                        @csrf
                         <div class="form-row">
                             <div class="col-sm">
                                 <div class="form-group">
@@ -101,7 +102,7 @@
                         </div>
                         <div class="form-group">
                             <label for="contact-message">Message</label>
-                            <textarea id="contact-message" name="message" rows="10" class="form-control"></textarea>
+                            <textarea id="contact-message" name="bodyMessage" rows="10" class="form-control"></textarea>
                             <div class="invalid-feedback">
                                 Please tell us a little more.
                             </div>
@@ -115,7 +116,7 @@
                                     Please fill all fields correctly.
                                 </div>
                                 <div class="d-flex justify-content-end">
-                                    <button class="btn btn-primary btn-loading" type="submit" name="ContactRequest">
+                                    <button class="btn btn-primary btn-loading" type="submit" >
                                         <!-- Icon for loading animation -->
                                         <svg class="icon bg-white" width="24px" height="24px" viewBox="0 0 24 24"
                                              version="1.1" xmlns="http://www.w3.org/2000/svg"

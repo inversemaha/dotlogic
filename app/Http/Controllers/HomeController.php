@@ -26,4 +26,21 @@ class HomeController extends Controller
     {
         return view('frontEnd.pages.contact.index');
     }
+    public function contactSave(Request $request)
+    {
+        $inputs = [
+            'name' => $request->input('name'),
+            'email' => $request->input('email'),
+            'company_name' => $request->input('company_name'),
+            'phone' => $request->input('phone'),
+            'address' => $request->input('address'),
+            'bodyMessage' => $request->input('bodyMessage'),
+        ];
+
+
+    }
+    public function askForQuote()
+    {
+        return view('frontEnd.pages.quote.index');
+    }
 }

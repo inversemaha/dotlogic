@@ -5,11 +5,7 @@
                 <img alt="Jumpstart" data-inject-svg src="/assets/img/logos/jumpstart.svg">
             </a>
             <div class="d-flex align-items-center order-lg-3">
-                <a href="#" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Ask for a quote</a>
-                <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                    <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg src="/assets/img/icons/interface/icon-menu.svg">
-                    <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg src="/assets/img/icons/interface/icon-x.svg">
-                </button>
+                <a href="/ask_for_qoute" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Ask for a quote</a>
             </div>
 
             <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
