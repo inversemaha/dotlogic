@@ -1,11 +1,27 @@
 <div class="navbar-container" style="min-height: 80px; margin-bottom: -80px;">
-    <nav class="navbar navbar-expand-lg navbar-light position-fixed scrolled" data-overlay="" data-sticky="top" style="max-width: 1266px; top: 0px;">
+    {{--<nav class="navbar navbar-expand-lg navbar-light position-fixed scrolled" data-overlay="" data-sticky="top" style="max-width: 1266px; top: 0px;">
         <div class="container">
             <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/">
                 <img alt="Jumpstart" data-inject-svg src="/assets/img/logos/jumpstart.svg">
             </a>
             <div class="d-flex align-items-center order-lg-3">
                 <a href="/ask_for_qoute" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Ask for a quote</a>
+            </div>--}}
+
+    <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/">
+                <img alt="Jumpstart" src="assets/img/logos/jumpstart.png" height="50">
+            </a>
+            <div class="d-flex align-items-center order-lg-3">
+                <a href="/ask_for_qoute" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Ask for a quote</a>
+                <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                        data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                    <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg
+                         src="assets/img/icons/interface/icon-menu.svg">
+                    <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg
+                         src="assets/img/icons/interface/icon-x.svg">
+                </button>
             </div>
 
             <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
@@ -14,16 +30,16 @@
                         <a aria-expanded="false" class="nav-link nav-item" href="/" role="button">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a aria-expanded="false" class="nav-link nav-item" href="/our_service" role="button">Service</a>
+                        <a aria-expanded="false" class="nav-link nav-item" href="/product" role="button">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a aria-expanded="false" class="nav-link nav-item" href="/our_product" role="button">Product</a>
+                        <a aria-expanded="false" class="nav-link nav-item" href="/service" role="button">Service</a>
                     </li>
                     <li class="nav-item">
                         <a aria-expanded="false" class="nav-link nav-item" href="/about" role="button">About</a>
                     </li>
                     <li class="nav-item">
-                        <a aria-expanded="false" class="nav-link nav-item" href="/contact_us" role="button">Contact</a>
+                        <a aria-expanded="false" class="nav-link nav-item" href="/contact" role="button">Contact</a>
                     </li>
 
                     {{--<li class="nav-item">

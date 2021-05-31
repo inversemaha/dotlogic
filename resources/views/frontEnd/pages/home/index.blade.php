@@ -1,39 +1,38 @@
 @extends('layouts.common')
 
 @section('content')
-{{--Header Section Srart--}}
+    {{--Header Section Srart--}}
     <div data-overlay class="bg-primary-3 jarallax text-white" data-jarallax data-speed="0.2">
-        <img src="/assets/img/heros/hero-3.jpg" alt="Background" class="jarallax-img opacity-30">
+        <img src="/assets/img/heros/hero-31.jpg" alt="Background" class="jarallax-img opacity-30">
         <section class="pb-0">
             <div class="container pb-5">
                 <div class="row justify-content-center text-center">
                     <div class="col-xl-8 col-lg-10 col-md-11">
-                        <a data-fancybox href="https://vimeo.com/166034462#t=32s"
+                        {{--<a data-fancybox href="#"
                            class="btn btn-lg btn-light rounded-circle mb-4 mb-md-5" data-aos="zoom-in"
                            data-aos-delay="400">
                             <img src="/assets/img/icons/interface/icon-media-play.svg" alt="Media Play Icon"
                                  class="icon icon-lg bg-dark pl-1" data-inject-svg>
-                        </a>
-                        <h1 class="display-3" data-aos="fade-up" data-aos-delay="100">Jumpstart your launch</h1>
+                        </a>--}}
+                        <h1 class="display-3" data-aos="fade-up" data-aos-delay="100">Let Us Take Care of Your Business</h1>
                         <p class="lead" data-aos="fade-up" data-aos-delay="200">
-                            Berspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                            totam rem aperiam.
+                            We are DotLOgic , it's all about connecting dot's....
                         </p>
-                        <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 mt-md-5"
+                        <!-- <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 mt-md-5"
                              data-aos="fade-up" data-aos-delay="300">
                             <a href="#" class="btn btn-primary btn-lg mx-sm-2 my-1 my-sm-0">View Demos</a>
                             <a href="#" class="btn btn-outline-light btn-lg mx-sm-2 my-1 my-sm-0">Purchase</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div class="divider divider-bottom bg-white"></div>
         </section>
     </div>
-{{--Header Section End--}}
+    {{--Header Section End--}}
 
-{{--How we do things differently Start--}}
-    <section class="o-hidden">
+    {{--How we do things differently Start--}}
+    <!-- <section class="o-hidden">
         <div class="container">
             <div class="row align-items-center justify-content-around">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
@@ -78,11 +77,11 @@
                 </div>
             </div>
         </div>
-    </section>
-{{--How we do things differently End--}}
+    </section> -->
+    {{--How we do things differently End--}}
 
-{{--How We Work Start--}}
-    <section class="p-0 bg-light">
+    {{--How We Work Start--}}
+    <section class="o-hidden">
         <div class="container">
             <div class="row section-title justify-content-center text-center" style="margin-bottom: 30px;">
                 <div class="col-md-9 col-lg-8 col-xl-7">
@@ -114,7 +113,7 @@
                                     conflicts with our ready product, we customize it as per client’s requirement to
                                     built
                                     perfect solution.
-                                    <a href="contact.php">Let's meet</a>
+                                    <a href="/contact">Let's meet</a>
                                 </div>
                             </div>
                         </div>
@@ -226,9 +225,9 @@
             </div>
         </div>
     </section>
-{{--How We Work End--}}
+    {{--How We Work End--}}
 
-{{--Visitors Counts Start--}}
+    {{--Visitors Counts Start--}}
     <section class="bg-light pt-0" style="padding: 0;">
         <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
             <div class="row">
@@ -263,9 +262,9 @@
             </div>
         </div>
     </section>
-{{--Visitors Counts End--}}
+    {{--Visitors Counts End--}}
 
-{{--Our other services Start--}}
+    {{--Our other services Start--}}
     <section class="p-0 bg-primary row no-gutters o-hidden">
         <div class="col-lg-5 col-xl-6 d-flex align-items-center justify-content-center">
             <img src="/assets/img/blog/dotLogicM1.jpg" alt="Image" class="w-100 h-100">
@@ -408,9 +407,9 @@
             </section>
         </div>
     </section>
-{{--Our other services End--}}
+    {{--Our other services End--}}
 
-{{--Product Short details Start--}}
+    {{--Product Short details Start--}}
     <section class="bg-light o-hidden">
         <div class="container">
             <div class="row align-items-center justify-content-around">
@@ -516,9 +515,9 @@
             </div>
         </div>
     </section>
-{{--Product Short details End--}}
+    {{--Product Short details End--}}
 
-{{--Customer Review Start--}}
+    {{--Customer Review Start--}}
     <section class="bg-primary-3 text-white o-hidden pb-0">
         <div class="container">
             <div class="row section-title justify-content-center text-center">
@@ -542,7 +541,7 @@
                         <h4 class="h2">&ldquo;We are working at almost twice the capacity&rdquo;</h4>
                         <p>
                             We had all sorts of problems around motivation and productivity from our smallest scrums to
-                            our largest teams. Jumpstart helped us rise above all and conquer.
+                            our largest teams. DotLogic helped us rise above all and conquer.
                         </p>
                     </div>
                 </div>
@@ -554,11 +553,11 @@
                              alt="Harvey Derwent avatar image">
                     </div>
                     <div class="col pl-lg-4">
-                        <h4 class="h2">&ldquo;Jumpstart increases productivity.&rdquo;</h4>
+                        <h4 class="h2">&ldquo;DotLogic increases productivity.&rdquo;</h4>
                         <p>
                             We had all sorts of problems around motivation and productivity from our smallest scrums to
                             our largest teams.
-                            <mark data-aos="highlight-text" data-aos-delay="200">Jumpstart helped us rise above all and
+                            <mark data-aos="highlight-text" data-aos-delay="200">DotLogic helped us rise above all and
                                 conquer.
                             </mark>
                         </p>
@@ -575,7 +574,7 @@
                         <h4 class="h2">&ldquo;Long build times are a thing of the past!&rdquo;</h4>
                         <p>
                             We all know the stigma around build times and the ever expanding arsenal of tooling in
-                            modern web apps. Fear not, Jumpstart does away with all of that.
+                            modern web apps. Fear not, DotLogic does away with all of that.
                         </p>
                     </div>
                 </div>
@@ -590,7 +589,7 @@
                         <h4 class="h2">&ldquo;Top notch support on-call? Yes please.&rdquo;</h4>
                         <p>
                             Product support comes first when we are considering a new service. Do yourself a favour and
-                            choose Jumpstart, we have found the support to be second to none.
+                            choose DotLogic, we have found the support to be second to none.
                         </p>
                     </div>
                 </div>
@@ -602,9 +601,9 @@
                              alt="Bradley Singleton avatar image">
                     </div>
                     <div class="col pl-lg-4">
-                        <h4 class="h2">&ldquo;Jumpstart gives us total peace of mind.&rdquo;</h4>
+                        <h4 class="h2">&ldquo;DotLogic gives us total peace of mind.&rdquo;</h4>
                         <p>
-                            Living up to their reputation for support and reliablity, Jumpstart has delivered once again
+                            Living up to their reputation for support and reliablity, DotLogic has delivered once again
                             on all fronts. Any bugs we find are dealt with promptly.
                         </p>
                     </div>
@@ -616,23 +615,23 @@
         </div>
         <div class="divider divider-bottom bg-white"></div>
     </section>
-{{--Customer Review End--}}
+    {{--Customer Review End--}}
 
-{{--Quote section Start--}}
-<section>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-9">
-                <div class="d-flex flex-column flex-sm-row form-group">
-                    <input class="form-control form-control-lg mr-sm-2 mb-2 mb-sm-0 h-100"  placeholder="If you have any query please" type="text" readonly>
-                    <a class="btn btn-lg btn-primary btn-loading" href="/ask_for_qoute">
-                        <span style="color: white">Ask for a quote</span>
-                    </a>
+    {{--Quote section Start--}}
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-9">
+                    <div class="d-flex flex-column flex-sm-row form-group">
+                        <input class="form-control form-control-lg mr-sm-2 mb-2 mb-sm-0 h-100"  placeholder="If you have any query please" type="text" readonly>
+                        <a class="btn btn-lg btn-primary btn-loading" href="/ask_for_qoute">
+                            <span style="color: white">Ask for a quote</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-{{--Quote section End--}}
+    </section>
+    {{--Quote section End--}}
 
 @endsection

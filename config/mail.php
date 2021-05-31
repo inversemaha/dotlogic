@@ -2,6 +2,33 @@
 
 return [
 
+
+    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'port' => env('MAIL_PORT', 587),
+    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'username' => env('MAIL_USERNAME'),
+    'password' => env('MAIL_PASSWORD'),
+    'sendmail' => '/usr/sbin/sendmail -bs',
+    'pretend' => false,
+
+
+    #MailTrap Email Config
+
+    /*    "driver" => "smtp",
+    "host" => "smtp.gmail.com",
+    'port' => 587,
+
+    'form' => [
+        'address' => env('MAIL_FROM_ADDRESS','maha@adubhai.xyz'),
+        'name' => env('MAIL_FROM_NAME','Example'),
+    ],
+
+    'encryption' => env('MAIL_ENCRYPTION','tls'),
+
+    'username' => "taslimabegum6688@gmail.com",
+    "password" => "Maha24743_rush",*/
+
     /*
     |--------------------------------------------------------------------------
     | Default Mailer

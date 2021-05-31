@@ -1,8 +1,12 @@
-/* 
-/* 
+/*
+/*
 /*  custom.css
 /*
 /*  If not using Gulp and Sass, add your custom CSS below then include it
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+
+.navbar.navbar-default.affix .navbar-header img {
+    content: url(https://www.google.com/logos/doodles/2019/joseph-plateaus-218th-birthday-5462347081580544-s.png);
+}

@@ -44,6 +44,7 @@
         </div>
     </section>
     <section class="bg-light pb-0" id="contact_form">
+        @include('includes.error_mesage')
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-9 col-lg-8 col-xl-7">
